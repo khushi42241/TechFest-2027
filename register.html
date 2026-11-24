@@ -1,0 +1,241 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechFest 2027 - Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="header-container">
+
+            <div class="logo">
+                <img src="./logo (2).png" alt="TechFest Logo">
+                <div>
+                    <h1>TechFest</h1>
+                    <h2>2027</h2>
+                    <p>College Technology Festival</p>
+                </div>
+            </div>
+
+            <div class="header-details">
+                <p>15 - 17 February 2027</p>
+                <p>Quad AI School of Technology, Patna</p>
+            </div>
+
+        </div>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="events.html">Events</a>
+        <a href="schedule.html">Schedule</a>
+        <a href="register.html" class="active">Registration</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <main>
+
+        <section class="registration-hero">
+            <h1>Event <span>Registration</span></h1>
+            <p>
+                Register now for TechFest 2027 and be a part of
+                the biggest college technology festival!
+            </p>
+        </section>
+
+        <section class="registration-layout">
+
+            <div class="registration-form">
+
+                <h2>Registration Form</h2>
+
+                <form action="#" method="get">
+
+                    <div class="form-grid">
+
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name"
+                                   placeholder="Enter your full name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email"
+                                   placeholder="Enter your email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone"
+                                   placeholder="Enter your phone number" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="department">Department *</label>
+                            <select id="department" name="department" required>
+                                <option value="">Select Department</option>
+                                <option>CSE</option>
+                                <option>AI & ML</option>
+                                <option>IT</option>
+                                <option>ECE</option>
+                                <option>Mechanical</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="year">Year of Study *</label>
+                            <select id="year" name="year" required>
+                                <option value="">Select Year</option>
+                                <option>First Year</option>
+                                <option>Second Year</option>
+                                <option>Third Year</option>
+                                <option>Fourth Year</option>
+                            </select>
+                        </div>
+
+                    </div>
+
+                    <div class="form-group">
+                        <label>Event Preferences *</label>
+                        <p>Select one or more events</p>
+
+                        <div class="checkbox-grid">
+                            <label><input type="checkbox" name="event" value="Coding"> Coding Competition</label>
+                            <label><input type="checkbox" name="event" value="Robotics"> Robotics Challenge</label>
+                            <label><input type="checkbox" name="event" value="AI ML"> AI / ML Hackathon</label>
+                            <label><input type="checkbox" name="event" value="Gaming"> Gaming Tournament</label>
+                            <label><input type="checkbox" name="event" value="Project Expo"> Project Expo</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Participation Type *</label>
+
+                        <div class="radio-group">
+                            <label>
+                                <input type="radio" name="participation" value="Individual" required>
+                                Individual
+                            </label>
+
+                            <label>
+                                <input type="radio" name="participation" value="Team">
+                                Team
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Additional Information / Message</label>
+                        <textarea id="message" name="message"
+                                  rows="4"
+                                  placeholder="Enter your message or team details"></textarea>
+                    </div>
+
+                    <div class="terms">
+                        <label>
+                            <input type="checkbox" name="terms" required>
+                            I agree to the Terms and Conditions of TechFest 2027.
+                        </label>
+                    </div>
+
+                    <div class="form-buttons">
+                        <button type="submit">Register Now</button>
+                        <button type="reset" class="reset-button">Reset Form</button>
+                    </div>
+
+                </form>
+
+            </div>
+
+
+            <aside class="registration-sidebar">
+
+                <div class="sidebar-card">
+
+                    <h2>Registration Details</h2>
+
+                    <table>
+                        <tr>
+                            <th>Registration Deadline</th>
+                            <td>10 Feb 2027</td>
+                        </tr>
+
+                        <tr>
+                            <th>Registration Fee</th>
+                            <td>Depends on Event</td>
+                        </tr>
+
+                        <tr>
+                            <th>Team Size</th>
+                            <td>1 - 4 Members</td>
+                        </tr>
+
+                        <tr>
+                            <th>Eligibility</th>
+                            <td>All College Students</td>
+                        </tr>
+                    </table>
+
+                </div>
+
+
+                <div class="sidebar-card why-register">
+
+                    <h2>Why Register?</h2>
+
+                    <ul>
+                        <li>Participate in exciting technical events</li>
+                        <li>Showcase your skills and innovative ideas</li>
+                        <li>Get a chance to win attractive prizes</li>
+                        <li>Receive a participation certificate</li>
+                        <li>Network with like-minded students</li>
+                    </ul>
+
+                </div>
+
+                <div class="registration-image">
+                    <img src="./festival.png"
+                         alt="TechFest Registration Illustration">
+                </div>
+
+            </aside>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <div class="footer-container">
+
+            <div class="footer-brand">
+                <h2>TechFest 2027</h2>
+                <p>Imagine. Innovate. Inspire.</p>
+            </div>
+
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="events.html">Events</a>
+                <a href="schedule.html">Schedule</a>
+                <a href="register.html">Registration</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+        </div>
+
+        <p class="copyright">
+            Copyright 2027 TechFest. All Rights Reserved.
+        </p>
+
+    </footer>
+
+</body>
+</html>
